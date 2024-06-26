@@ -1,0 +1,327 @@
+
+
+
+#blog {
+    padding: 150px 150px 0 150px
+}
+
+#blog .blog-box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    /*   this will make the h1 appear on the image (the relative)*/
+    position: relative;
+    padding-bottom: 90px
+}
+
+#blog .blog-img {
+    width: 50%;
+    margin-right: 40px;
+}
+
+#blog img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+#blog .blog-details {
+    width: 50%
+}
+
+#blog .blog-details a {
+    text-decoration: none;
+    font-size: 11px;
+    color: #000;
+    font-weight: 700;
+    position: relative;
+    transition: 0.3s
+}
+
+
+#blog .blog-details a::after {
+    content: "";
+    width: 50px;
+    height: 1px;
+    background-color: #000;
+    position: absolute;
+    top: 4px;
+    right: -60px;
+
+}
+
+#blog .blog-details a:hover {
+    color: #088178
+}
+
+#blog .blog-details a:hover::after {
+    background-color: #088178
+}
+
+#blog .blog-box h1 {
+    /*   the absolute will make it position well but it need to be in the blog-box for it to show (absolute)*/
+    position: absolute;
+    top: -40px;
+    left: 0;
+    font-size: 70px;
+    font-weight: 700;
+    color: #c9cbce;
+    z-index: -9;
+}
+
+#pagination {
+    text-align: center;
+}
+
+#pagination button {
+    text-decoration: none;
+    background-color: #041e42;
+    padding: 10px 5px;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+#pagination button:hover {
+    background-color: transparent;
+    border: 1px solid #041e42;
+    border-radius: 4px;
+    color: #041e42;
+}
+
+#pagination svg {
+    width: 40px;
+    height: 25px;
+
+}
+
+
+.search-form {
+    padding: 0% !important;
+}
+
+.search {
+    width: 100%;
+    padding: 10px 5px;
+}
+
+#about-app h1 a {
+    text-decoration: none;
+    color: #088178;
+}
+
+#feature .fe-box {
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    margin: 15px 0;
+}
+
+#feature .fe-box:hover {
+    box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+#feature .fe-box h6 {
+    display: in-block;
+    padding: 9px 8px 6px 8px;
+    line-height: 1;
+    border-radius: 4px;
+    color: #088178;
+    background-color: #fddde4;
+}
+
+#feature .fe-box img {
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+#feature {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#feature .fe-box:nth-child(2) h6 {
+    background-color: #cdebbc;
+}
+
+
+#feature .fe-box:nth-child(3) h6 {
+    background-color: #d1e8f2;
+}
+
+#feature .fe-box:nth-child(4) h6 {
+    background-color: #cdd4f8;
+}
+
+#feature .fe-box:nth-child(5) h6 {
+    background-color: #f6dbf6;
+}
+
+#feature .fe-box:nth-child(6) h6 {
+    background-color: #fff2e5;
+}
+
+
+
+/*   blog page */
+
+#blog .blog-box {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start
+}
+
+#blog {
+    padding: 100px 20px 0 20px
+}
+
+#blog .blog-img {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 30px;
+}
+
+#blog .blog-details {
+    width: 100%;
+}
+
+
+/*   Contact Page */
+#contact-details {
+    /*     display: flex; */
+    flex-direction: column
+}
+
+#contact-details .details {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+#contact-details .map {
+    width: 100%
+}
+
+#form-details {
+    margin: 10px;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+}
+
+#form-details form {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+/*   cart page */
+
+#cart-add {
+    flex-direction: column
+}
+
+#coupon {
+    width: 100%
+}
+
+#subtotal {
+    width: 100%;
+    padding: 20px
+}
+
+#prodetails {
+    display: flex;
+    margin-top: 126px;
+}
+
+#prodetails .single-pro-image {
+    width: 40%;
+    margin-right: 50px
+}
+
+.small-img-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+#prodetails .single-pro-details {
+    width: 50%;
+    padding: 30px;
+}
+
+#prodetails .single-pro-details h4 {
+    padding: 40px 0 20px 0;
+
+}
+
+#prodetails .single-pro-details h2 {
+    font-size: 26px;
+
+}
+
+#prodetails .single-pro-details select {
+    display: block;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+#prodetails .single-pro-details input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    outline: none;
+}
+
+#prodetails .single-pro-details button {
+
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background: #088178;
+    box-shadow: 0 5px #088178;
+}
+
+#prodetails .single-pro-details .btn:hover {
+    box-shadow: 0 3px #088142;
+    top: 1px;
+}
+
+#prodetails .single-pro-details .btn:active {
+    box-shadow: 0 0 #088142;
+    top: 5px;
+}
+
+#prodetails .single-pro-details span {
+    line-height: 25px;
+}
+
+.pass-box {
+    width: 50% !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}

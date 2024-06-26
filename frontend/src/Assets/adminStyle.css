@@ -1,0 +1,123 @@
+ul {
+    list-style: none;
+    padding: 0% !important;
+}
+
+header {
+    background-color: #f3f3f3;
+}
+
+.admin-header {
+    position: fixed;
+    text-align: center;
+    background-color: #f3f3f3;
+    height: 100%;
+    width: 300px;
+}
+
+.admin-menu a {
+    text-decoration: none !important;
+    transition: .5s;
+    color: #293341 !important;
+}
+
+.admin-menu li {
+    background-color: transparent !important;
+    padding: 20px;
+    transition: .5s;
+}
+
+.admin-menu li:hover {
+    background-color: #293341 !important;
+}
+
+.admin-menu .admin-li:hover a {
+    color: #f3f3f3 !important;
+}
+
+.admin-menu table {
+    border: 2px solid #293341 !important;
+}
+
+.admin-menu th {
+    background-color: #ff523b !important;
+}
+
+.btn {
+    margin: 0% !important;
+}
+
+#cart {
+    overflow-x: auto
+}
+
+
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table img {
+    width: 70px;
+}
+
+#cart table td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+    /*   text-decoration: none */
+}
+
+#cart table td:nth-child(2) {
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(3) {
+    width: 250px;
+    text-align: center;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6) {
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(1) a {
+    text-decoration: none;
+    color: #000
+}
+
+#cart table td:nth-child(5) input {
+    width: 70px;
+    padding: 10px 5px 10px 5px
+}
+
+#cart table thead {
+    border: 1px solid #e2e9e1;
+    border-left: none;
+    border-right: none;
+
+}
+
+#cart table thead td {
+    padding: 18px 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+#cart table tbody tr td {
+    padding-top: 15px
+}
+
+#cart table tbody td {
+    font-size: 13px
+}
+
+select{
+    border: 1px solid #293341 !important;
+}
